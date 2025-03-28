@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+ padding-top: 1rem;
+ width: 83vw;
+ display: flex;
+ flex-direction: row;
+ position: relative;
+ margin: auto;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.box1
+{
+  background-color: #1E5AFA;
+ width: 98.5vw; 
+ width:100%; 
+ max-height: 120vh;
+ position: absolute; 
+
+
+
+}
+.imgif{height: 40rem; width:30rem;}
+
+.img2{height: 38rem;}
+
+.img1{height: 40rem; width:30rem; margin-top:8rem;}
+
+.anchors
+{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.nav_elements
+{
+    color: #FAFAFA;
+    text-decoration: none;
+    
+}
+
+.smt
+{
+ color: #FAFAFA;
+ font-family: Inter;
+ font-weight: 700;
+ font-size: 2rem;
+ line-height: 100%;
+ letter-spacing: 0%;
+
+}
+
+.group3
+{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    
+}
+
+.signup_inside
+{
+    color: black;
+}
+
+.login
+{   
+    color: #FAFAFA;
+}
+
+.signup
+{
+    width: 7rem;
+    height: 3rem;
+    /* border: solid #1E5AFA; */
+    border-radius: 0.5rem;
+
+ box-shadow: 0px 1.85px 3.15px 0px #38383806;
+
+box-shadow: 0px 8.15px 6.52px 0px #3838380A;
+
+box-shadow: 0px 20px 13px 0px #3838380D;
+
+box-shadow: 0px 38.52px 25.48px 0px #3838380F;
+
+box-shadow: 0px 64.81px 46.85px 0px #38383813;
+
+box-shadow: 0px 100px 80px 0px #3838381A;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.box1_para
+{
+color: #FAFAFA;
+font-family: Inter;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+width: 40rem;
+height: 5rem;
+}
+
+.header1
+{   padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.start_contain
+{
+ width: 40rem;
+ height: 13rem;
+
+ font-family: Inter;
+ font-weight: 800;
+ font-size: 5rem;
+ line-height: 100%;
+ letter-spacing: 0px;
+ text-align: center;
+ color: #FAFAFA;
+}
+
+.social
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    left: 2rem;
+    top: 30rem;
+    background: #1E5AFA;
+}
+
+.gpay
+{ 
+    height: 3.5rem;
+}
+
+.gpay:hover
+{
+    cursor: pointer;
+}
+
+.decorator_1
+{   position: absolute;
+    right: 0;
+    top: 48rem;
+}
+.box1_para{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+.section_heading
+{   margin: auto;
+    width: 20rem;
+    margin-top: 7rem;
+
+font-family: Inter;
+font-weight: 700;
+font-size: 5rem;
+line-height: 100%;
+letter-spacing: -0.2rem;
+text-align: center;
+
+}
+
+.about_img
+{
+    height:50rem ;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 5rem; */
+}
+
+.container
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.about_us
+{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+}
+
+.aboutcontent
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+
+    max-width: 20rem;
+    gap: 1.5rem;
+    margin-top: 9rem;
+    /* text-align: center; */
+}
+
+.h2head
+{
+font-family: Inter;
+font-weight: 600;
+font-size: 2.5rem;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.para_about_us
+{
+font-family: Inter;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 2rem;
+letter-spacing: 0%;
+color: #575757;
+}
+
+.Learn_More
+{
+    width: 5rem;
+    height: 3rem;
+    background: black;
+    color: #FAFAFA;
+    border-radius: 0.5rem;
+    margin-right:15rem;
+}
+
+
+/* .about_us
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+} */
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+#clients
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.clients_heading
+{
+/* width: 20rem; */
+
+font-family: Inter;
+font-weight: 700;
+font-size: 4rem;
+line-height: 100%;
+/* letter-spacing: -3px; */
+text-align: center;
+
+}
+
+.lop
+{
+    color: #575757;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.people_review
+{
+ margin-top: 2rem;
+ width: 30rem;
+ 
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+
+ box-shadow: 0px 20px 50px 0px #3131310D;
+ border: #E7EBEE solid 1px;
+ border-radius: 0.8rem;
+
+ background-color: #E7EBEE;
+ padding-left: 1rem;
+ transition: background-color 0.3s linear, transform 0.3s linear;
+}
+
+.people_review:hover
+{
+    background-color: #FAFAFA;
+}
+
+.profiles
+{
+    display: grid;
+    gap: 0.8rem;
+    display: grid;
+    padding: 4rem;
+    gap: 1rem;
+   /* grid-template-columns: repeat(3,1fr) ; */
+   grid-template-columns: repeat(auto-fit,minmax(200px,500px)); 
+   justify-content: center;
+   
+}
+
+.lea{
+    font-family: Inter;
+font-weight: 500;
+font-style: italic;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0%;
+color:  #575757   ; 
+}
+
+.testimonials
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ /* margin: auto; */
+}
+
+.testimonial_header
+{
+    margin: auto;
+
+font-family: Inter;
+font-weight: 700;
+font-size: 85px;
+line-height: 100%;
+letter-spacing: -3px;
+/* text-align: center; */
+}
+
+.leam{ 
+    margin-top: 3rem;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+   color:  #575757   ; 
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+#faqs h1
+{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.faq_container
+{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.faq{
+padding: 2rem;
+display: flex;
+gap: 1rem;
+border: 1px solid #ddd;
+cursor: pointer;
+}
+
+.faq:hover{
+    border-color: #1E5AFA;
+    color: #1E5AFA;
+}
+
+.faq_answer
+{
+    margin-top: 1rem;
+    display: none;
+}
+
+.faq_questions
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.faq.open
+{   border-color:#1E5AFA;
+    color: black;
+    box-shadow: 0 0.5rem 0.5rem black ;
+    z-index: 1;
+}
+
+.faq.open .faq_answer
+{
+    display: block;
+}
+
+/*  --------------------------------------------------------------------------------------------------------------- */
+.down_head
+{
+    font-family: Inter;
+font-weight: 700;
+font-size: 85px;
+line-height: 100%;
+letter-spacing: -3px;
+margin-bottom: 3rem;
+}
+
+.dwn{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   color: #575757;    
+   margin-bottom: 3rem;
+}
+
+.downloadnow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.containes
+{
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+ gap: 5rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------- */
+#subscribe
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    background: #1E5AFA;
+    height: 15rem;
+    color: white;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+}
+.subscribe_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 20rem;
+    margin-left: 3rem;
+}
+
+.btn
+{
+    margin: auto;
+}
+
+.btn button{
+    /* margin: auto; */
+    height:3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: #FAFAFA 2px solid;
+    color: white;
+}
+
+subscribe_container h2
+{
+    font-family: Inter;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: 0%;
+
+}
+
+.btn button:hover{
+    border-color: aqua;
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+.bef_anchor
+{
+ color: #575757;
+ font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: none;
+}
+
+.bef_header
+{
+    font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #2e2e2e;
+}
+
+.bef_last
+{
+ margin-top: 3rem;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 5rem;
+ justify-content: center;
+}
+
+.bef_container
+{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem ;
+  flex-wrap: wrap;
+}
+
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inside input
+{
+  height: 3rem;
+  color: transparent;
+  background-color: #e0d9d9;
+  border-radius: 0.5rem;
+  border: transparent 1px solid;
+  padding-left: 2rem;
+}
+
+.inside button
+{
+    width: 5rem;
+    color: black;
+    background-color: transparent;
+    border-radius: 0.5rem;
+
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+   @media screen and (max-width: 500px) {
+    .anchors,
+    .group3 {
+        display: none; 
+        flex-direction: column;
+        background: #1E5AFA;
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    .social {
+        display: none; 
+        flex-direction: column;
+        background: #1E5AFA;
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .dropdown-menu .social {
+        display: flex !important; 
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .menu-icon {
+        display: block; 
+    }
+
+    .show-menu {
+        display: flex !important; 
+    }
+    .img2
+    {
+        height: 300px;
+        width: 428px;
+    }
+    .box1{
+        width: 450px;
+      height: 600px;
+    }
+    .download{
+        display: none;
+    }
+    .imgif{
+        width: 381px;
+height: 377.0868835449219px;
+
+    }
+    .about_img{
+        height: 350px;
+    }
+    .about_us{
+        gap: 2rem;
+    }
+    .people_review{
+        width: 300px;
+    }
+    
+}
